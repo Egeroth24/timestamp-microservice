@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timestamp Microservice</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>FreeCodeCamp Timestamp Microservice</h1>
+      <blockquote>
+        User Stories:
+        <ol>
+          <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
+          <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ol>
+      </blockquote>
+      <h2>Example Usage:</h2>
+      <code>https://glen-pig.glitch.me/December%2025,%202017</code> <br />
+      <code>https://glen-pig.glitch.me/1514160001</code>
+      
+      <h2>Example Output:</h2>
+      <code>{ "natural": December 25, 2017, "unix": 1514160001 }</code>
+    </div>
+    
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="/client.js"></script>
+  </body>
+</html>
