@@ -1,0 +1,25 @@
+{
+
+  "name": "Timestamp Microservice",
+  "version": "1.0.0",
+  "description": "Given a UNIX or natural langauge timestamp, returns both the UNIX and natural number language format of that date.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
